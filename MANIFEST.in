@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include xpitching *.css
+recursive-include xpitching *.csv
+recursive-include xpitching *.html
+recursive-include xpitching *.ico
+recursive-include xpitching *.js
+recursive-include xpitching *.json
+recursive-include xpitching *.md
+recursive-include xpitching *.png
+recursive-include xpitching *.py
+recursive-include xpitching *.svg
+recursive-include xpitching *.txt
+recursive-exclude xpitching *.pyc
